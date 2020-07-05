@@ -1,0 +1,12 @@
+import java.util.*;
+public class MainControlMonitors {
+
+    private HashMap<Integer, Point> carLocations;
+
+    public void displayGPS(){}
+
+    public void displayCarStatus(CarStatus status){
+        //display status
+    }
+
+}

@@ -1,0 +1,37 @@
+import java.awt.*;
+public class CarStatus {
+
+    private int currentPeople;
+    private double currentSpeed;
+    private Point location;
+
+    public CarStatus(int currentPeople, double currentSpeed, Point location){
+        this.currentPeople = currentPeople;
+        this.currentSpeed = currentSpeed;
+        this.location = location;
+    }
+
+    public void setCurrentPeople(int currentPeople){
+        this.currentPeople = currentPeople;
+    }
+
+    public void setCurrentSpeed(double newSpeed){
+        this.currentSpeed = newSpeed;
+    }
+
+    public void setLocation(Point newLocation){
+        this.location = newLocation;
+    }
+
+    public int getCurrentPeople(){
+        return currentPeople;
+    }
+
+    public double getCurrentSpeed(){
+        return currentSpeed;
+    }
+
+     public Point getLocation() {
+        return location;
+     }
+}

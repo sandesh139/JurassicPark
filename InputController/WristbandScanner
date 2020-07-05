@@ -1,0 +1,13 @@
+public class WristbandScanner {
+
+    private int uniqueID;
+
+    public void activateWristband(int id){
+        this.uniqueID = id;
+    }
+
+    public void deactivatePatrons(int id){
+
+    }
+
+}

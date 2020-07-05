@@ -1,0 +1,6 @@
+public class BunkerMonitors {
+
+    public void displayEmergencyMessage(String message){
+        //display message
+    }
+}

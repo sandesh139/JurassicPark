@@ -1,0 +1,7 @@
+public class PopupWallSensor {
+    private boolean active;
+
+    public boolean isActivated(){
+        return active;
+    }
+}

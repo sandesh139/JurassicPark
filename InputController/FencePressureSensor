@@ -1,0 +1,9 @@
+public class FencePressureSensor {
+
+    private double currentPressure;
+
+    public double getPressure(){
+        return currentPressure;
+    }
+
+}

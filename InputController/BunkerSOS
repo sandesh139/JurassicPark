@@ -1,0 +1,6 @@
+public class BunkerSOS {
+
+    public void sendSOS(String message){
+
+    }
+}

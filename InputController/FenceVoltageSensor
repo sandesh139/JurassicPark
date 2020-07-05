@@ -1,0 +1,9 @@
+public class FenceVoltageSensor {
+
+    private double currentVoltage;
+
+    public double getVoltage(){
+        return currentVoltage;
+    }
+
+}

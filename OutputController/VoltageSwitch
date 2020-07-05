@@ -1,0 +1,12 @@
+public class VoltageSwitch{
+
+    private boolean voltageOn;
+
+    public boolean isVoltageOn(){
+        return voltageOn;
+    }
+
+    public void setVoltage(boolean on){
+        voltageOn = on;
+    }
+}
